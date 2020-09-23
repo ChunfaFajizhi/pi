@@ -11,3 +11,13 @@ network={
 ssid=”…..”
 psk=”…..“
 }
+
+#with swap size
+configue file
+/etc/dphys-swapfile 
+CONF_SWAPFILE=/var/swap
+CONF_SWAPFACTOR=2
+
+then
+sudo dphys-swapfile setup
+sudo dphys-swapfile swapon
