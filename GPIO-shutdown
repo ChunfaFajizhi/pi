@@ -1,0 +1,13 @@
+#gpio-shutdown
+dtoverlay=gpio-shutdown,gpio_pin=3,active_low=1,gpio_pull=up
+
+
+#For wpa_supplicant.conf file
+wifi 
+country=CH
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+ssid=”…..”
+psk=”…..“
+}
