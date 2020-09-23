@@ -1,3 +1,4 @@
+From https://www.sensorsiot.org/raspberry-pi-tricks/
 #gpio-shutdown
 dtoverlay=gpio-shutdown,gpio_pin=3,active_low=1,gpio_pull=up
 
