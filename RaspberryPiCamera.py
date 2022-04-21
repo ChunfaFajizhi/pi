@@ -1,3 +1,7 @@
+From RaspberryPi Website
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/1
+
+
 from picamera import PiCamera, Color
 from time import sleep
 
